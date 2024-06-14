@@ -14,7 +14,7 @@ def func2():
     print("Press 4 to see diet.")
 def piyush_diet():
         f=open("piyush_diet.txt", "a")
-        print("Enter the Piyush's Diet name: ")
+        print("Enter the Piyush's Diet chart: ")
         f.write(input())
         f.close()
         print("Your diet is successfully added to the file.")
